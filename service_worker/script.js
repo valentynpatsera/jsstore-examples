@@ -1,6 +1,6 @@
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register(window.location.href + 'service-worker.js')
+  navigator.serviceWorker.register(window.location.href + 'service_worker/service-worker.js')
     .then(function() {
       console.log('sw registered');
     })
